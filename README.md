@@ -1,1 +1,1 @@
-# Bayesian-inferance-on-exponential-translated-model
+# Bayesian-inference-on-exponential-translated-model
