@@ -1,4 +1,5 @@
-We use our implementation of the Gibbs-Sampler algorithm and analyse its convergence. We try different sample sizes. 
+
+We simulate random observations using a translated exponential law. We suppose that we we don't know the parameters of this law and that we just have the observations. The purpose is to find the two parameters of this law (a and lambda) with the Gibbs sampler algorithm. We use our implementation of the Gibbs-Sampler algorithm.
 
 First, we observe results with 100 simulations. Here are the results for the a posteriori parameter a. The different simulations are located around 7. Then we compute the bayesian estimator of the paraemeter a for each iteration, using all the available samples. This means for instance that at the k-st iteration, the bayesian estimator is computed using the k previous iterations with the method of moments. We see that the estimator converges.
 
